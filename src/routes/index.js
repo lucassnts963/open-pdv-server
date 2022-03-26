@@ -2,6 +2,7 @@
 import express from 'express'
 
 import produtos from './produtosRoutes.js'
+import fornecedores from './fornecedoresRoutes.js'
 
 const routes = (app) => {
   app.route('/').get((req, res) => {
@@ -10,7 +11,8 @@ const routes = (app) => {
 
   app.use(
     express.json(),
-    produtos
+    produtos,
+    fornecedores
   )
 }
 

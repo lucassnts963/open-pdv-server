@@ -61,4 +61,11 @@ Itens cadastrados para serem vendidos seguindo a estrutura de dados abaixo:
 - aplicacao
   - Esse item é pra cadastrar quais modelos de motos que o item é compatível
 
+### Fornecedor
+- id
+- codigo
+- nome_fantasia
+- razao_social
+- cnpj
+
 
