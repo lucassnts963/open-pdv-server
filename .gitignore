@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+#Evitando que config suba para o github
+default.json
