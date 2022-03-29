@@ -42,6 +42,7 @@ O banco de dados escolhido para o projeto foi o MongoDB Atlas a versão gratuita
 - usuarios
 - fornecedores
 - veiculos
+- vendas
 
 ### Produtos
 
@@ -109,5 +110,21 @@ Pode ser utilizado no futuro o conceito de herança? Como?
 - cilindradas (uma opção pode ser "não se aplica")
 - marca
 - ano
+
+### Vendas
+- id
+- produtos
+- cliente
+- total
+- data
+- forma_pagamento
+
+### Transações
+Aqui pode haver uma despesa ou uma receita que não seja venda de produtos
+- id
+- descricao
+- valor
+- data
+- tipo (entrada ou saída / receita ou despesa)
 
 

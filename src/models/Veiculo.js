@@ -1,4 +1,4 @@
-// src/models/Produto.js - Arquivo representa a estrutura de um veiculo dentro do sistema
+// src/models/Veiculo.js - Arquivo representa a estrutura de um veiculo dentro do sistema
 import mongoose from 'mongoose'
 
 
