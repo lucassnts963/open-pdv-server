@@ -13,7 +13,7 @@ const produtoSchema = mongoose.Schema(
     custo: {type: Number, required:true},
     preco: {type: Number, required:true},
     encargos: {type: Number, required:true},
-    fornecedor: {type: String, required:true},
+    fornecedor: {type: mongoose.Schema.Types.ObjectId, ref:'fornecedores', required: true},
     aplicacao: {type: String, required:true},
   }
 )

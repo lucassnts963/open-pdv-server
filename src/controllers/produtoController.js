@@ -17,8 +17,18 @@ const buildMessage = (err, message = 'Algo de Errado aconteceu!!!') => {
 
 class ProdutoController{
 
+  static listarLivros = (req, res) => {
+    livros.find()
+      .populate('autor')
+      .exec((err, livros) => {
+      res.status(200).json(livros)
+    })
+  }
+
   static listarProdutos = (req, res) => {
-    produtos.find((err, produtos) => {
+    produtos.find()
+      .populate('fornecedor')
+      .exec((err, produtos) => {
       if(!err){
         res.status(200).json(produtos)
       }else{
@@ -32,6 +42,7 @@ class ProdutoController{
 
     produtos
       .findById(id)
+      .populate('fornecedor')
       .exec((err, produtos) => {
         if(!err){
           res.status(200).json(produtos)
