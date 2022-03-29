@@ -83,4 +83,21 @@ Itens cadastrados para serem vendidos seguindo a estrutura de dados abaixo:
 - email
 - celular
 
+### Usuários
+- id
+- codigo
+- nome
+- cpf
+- data_nascimento
+- cidade
+- cep
+- bairro
+- logradouro
+- complemento
+- numero
+- email
+- celular
+- login
+- senha
+
 
