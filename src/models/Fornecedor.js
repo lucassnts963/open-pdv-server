@@ -8,6 +8,7 @@ const fornecedorSchema = mongoose.Schema(
     nome_fantasia: {type: String, required:true},
     razao_social: {type: String, required:true},
     cnpj: {type: String, required:true},
+    email: {type: String, required:true},
   }
 )
 
