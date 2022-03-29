@@ -100,4 +100,14 @@ Itens cadastrados para serem vendidos seguindo a estrutura de dados abaixo:
 - login
 - senha
 
+### Veículo
+Pode ser utilizado no futuro o conceito de herança? Como?
+- id
+- codigo
+- tipo (MOTO, CARRO, BIKE)
+- nome
+- cilindradas (uma opção pode ser "não se aplica")
+- marca
+- ano
+
 

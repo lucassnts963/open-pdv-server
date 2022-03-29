@@ -14,7 +14,7 @@ const produtoSchema = mongoose.Schema(
     preco: {type: Number, required:true},
     encargos: {type: Number, required:true},
     fornecedor: {type: mongoose.Schema.Types.ObjectId, ref:'fornecedores', required: true},
-    aplicacao: {type: String, required:true},
+    aplicacao: {type: Array}, // Aqui vai uma lista de veículos, a qual o produto é compatível
   }
 )
 

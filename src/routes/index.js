@@ -5,6 +5,7 @@ import produtos from './produtosRoutes.js'
 import fornecedores from './fornecedoresRoutes.js'
 import clientes from './clientesRoutes.js'
 import usuarios from './usuariosRoutes.js'
+import veiculos from './veiculosRoutes.js'
 
 const routes = (app) => {
   app.route('/').get((req, res) => {
@@ -16,7 +17,8 @@ const routes = (app) => {
     produtos,
     fornecedores,
     clientes,
-    usuarios
+    usuarios,
+    veiculos
   )
 }
 
