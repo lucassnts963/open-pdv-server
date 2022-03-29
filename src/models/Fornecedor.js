@@ -1,4 +1,4 @@
-// src/models/Produto.js - Arquivo representa a estrutura de um produto dentro do sistema
+// src/models/Fornecedor.js - Arquivo representa a estrutura de um fornecedor dentro do sistema
 import mongoose from 'mongoose'
 
 const fornecedorSchema = mongoose.Schema(

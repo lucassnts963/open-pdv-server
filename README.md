@@ -68,4 +68,19 @@ Itens cadastrados para serem vendidos seguindo a estrutura de dados abaixo:
 - razao_social
 - cnpj
 
+### Cliente
+- id
+- codigo
+- nome
+- cpf
+- data_nascimento
+- cidade
+- cep
+- bairro
+- logradouro
+- complemento
+- numero
+- email
+- celular
+
 
