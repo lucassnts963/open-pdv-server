@@ -43,6 +43,7 @@ O banco de dados escolhido para o projeto foi o MongoDB Atlas a versão gratuita
 - fornecedores
 - veiculos
 - vendas
+- transacoes
 
 ### Produtos
 
